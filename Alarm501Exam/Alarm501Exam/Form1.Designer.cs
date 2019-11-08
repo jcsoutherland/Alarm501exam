@@ -62,7 +62,6 @@
             this.btn_set.TabIndex = 2;
             this.btn_set.Text = "Set";
             this.btn_set.UseVisualStyleBackColor = true;
-            this.btn_set.Click += new System.EventHandler(this.Btn_set_Click);
             // 
             // btn_stop
             // 

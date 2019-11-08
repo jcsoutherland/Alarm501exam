@@ -22,9 +22,5 @@ namespace Alarm501Exam
             time_picker.Value = DateTime.Now;
         }
 
-        private void Btn_set_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
