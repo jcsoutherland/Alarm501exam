@@ -8,3 +8,13 @@ C:\Users\jgreene44\Desktop\Alarm501Exam\Alarm501Exam\obj\Debug\Alarm501Exam.cspr
 C:\Users\jgreene44\Desktop\Alarm501Exam\Alarm501Exam\obj\Debug\Alarm501Exam.csproj.CoreCompileInputs.cache
 C:\Users\jgreene44\Desktop\Alarm501Exam\Alarm501Exam\obj\Debug\Alarm501Exam.exe
 C:\Users\jgreene44\Desktop\Alarm501Exam\Alarm501Exam\obj\Debug\Alarm501Exam.pdb
+C:\Users\jgreene44\Source\Repos\Alarm501exam\Alarm501Exam\Alarm501Exam\bin\Debug\Alarm501Exam.exe.config
+C:\Users\jgreene44\Source\Repos\Alarm501exam\Alarm501Exam\Alarm501Exam\bin\Debug\Alarm501Exam.exe
+C:\Users\jgreene44\Source\Repos\Alarm501exam\Alarm501Exam\Alarm501Exam\bin\Debug\Alarm501Exam.pdb
+C:\Users\jgreene44\Source\Repos\Alarm501exam\Alarm501Exam\Alarm501Exam\obj\Debug\Alarm501Exam.csprojAssemblyReference.cache
+C:\Users\jgreene44\Source\Repos\Alarm501exam\Alarm501Exam\Alarm501Exam\obj\Debug\Alarm501Exam.Form1.resources
+C:\Users\jgreene44\Source\Repos\Alarm501exam\Alarm501Exam\Alarm501Exam\obj\Debug\Alarm501Exam.Properties.Resources.resources
+C:\Users\jgreene44\Source\Repos\Alarm501exam\Alarm501Exam\Alarm501Exam\obj\Debug\Alarm501Exam.csproj.GenerateResource.cache
+C:\Users\jgreene44\Source\Repos\Alarm501exam\Alarm501Exam\Alarm501Exam\obj\Debug\Alarm501Exam.csproj.CoreCompileInputs.cache
+C:\Users\jgreene44\Source\Repos\Alarm501exam\Alarm501Exam\Alarm501Exam\obj\Debug\Alarm501Exam.exe
+C:\Users\jgreene44\Source\Repos\Alarm501exam\Alarm501Exam\Alarm501Exam\obj\Debug\Alarm501Exam.pdb

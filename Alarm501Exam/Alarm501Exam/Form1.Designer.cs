@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lbl_output = new System.Windows.Forms.Label();
+            this.lbl_status = new System.Windows.Forms.Label();
             this.time_picker = new System.Windows.Forms.DateTimePicker();
-            this.btn_set = new System.Windows.Forms.Button();
+            this.btn_set_start = new System.Windows.Forms.Button();
             this.btn_stop = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // lbl_output
+            // lbl_status
             // 
-            this.lbl_output.AutoSize = true;
-            this.lbl_output.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_output.Location = new System.Drawing.Point(146, 38);
-            this.lbl_output.Name = "lbl_output";
-            this.lbl_output.Size = new System.Drawing.Size(83, 25);
-            this.lbl_output.TabIndex = 0;
-            this.lbl_output.Text = "Not Set";
+            this.lbl_status.AutoSize = true;
+            this.lbl_status.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_status.Location = new System.Drawing.Point(146, 38);
+            this.lbl_status.Name = "lbl_status";
+            this.lbl_status.Size = new System.Drawing.Size(83, 25);
+            this.lbl_status.TabIndex = 0;
+            this.lbl_status.Text = "Not Set";
             // 
             // time_picker
             // 
@@ -54,14 +54,15 @@
             this.time_picker.Size = new System.Drawing.Size(92, 20);
             this.time_picker.TabIndex = 1;
             // 
-            // btn_set
+            // btn_set_start
             // 
-            this.btn_set.Location = new System.Drawing.Point(85, 110);
-            this.btn_set.Name = "btn_set";
-            this.btn_set.Size = new System.Drawing.Size(75, 23);
-            this.btn_set.TabIndex = 2;
-            this.btn_set.Text = "Set";
-            this.btn_set.UseVisualStyleBackColor = true;
+            this.btn_set_start.Location = new System.Drawing.Point(85, 110);
+            this.btn_set_start.Name = "btn_set_start";
+            this.btn_set_start.Size = new System.Drawing.Size(75, 23);
+            this.btn_set_start.TabIndex = 2;
+            this.btn_set_start.Text = "Set";
+            this.btn_set_start.UseVisualStyleBackColor = true;
+            this.btn_set_start.Click += new System.EventHandler(this.Btn_set_start_Click);
             // 
             // btn_stop
             // 
@@ -72,6 +73,7 @@
             this.btn_stop.TabIndex = 3;
             this.btn_stop.Text = "Stop";
             this.btn_stop.UseVisualStyleBackColor = true;
+            this.btn_stop.Click += new System.EventHandler(this.Btn_stop_Click);
             // 
             // Form1
             // 
@@ -79,9 +81,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(349, 185);
             this.Controls.Add(this.btn_stop);
-            this.Controls.Add(this.btn_set);
+            this.Controls.Add(this.btn_set_start);
             this.Controls.Add(this.time_picker);
-            this.Controls.Add(this.lbl_output);
+            this.Controls.Add(this.lbl_status);
             this.Name = "Form1";
             this.Text = "Alarm 501";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -92,9 +94,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lbl_output;
+        private System.Windows.Forms.Label lbl_status;
         private System.Windows.Forms.DateTimePicker time_picker;
-        private System.Windows.Forms.Button btn_set;
+        private System.Windows.Forms.Button btn_set_start;
         private System.Windows.Forms.Button btn_stop;
     }
 }
