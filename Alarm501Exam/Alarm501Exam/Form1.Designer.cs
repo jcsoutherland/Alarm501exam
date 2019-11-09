@@ -60,7 +60,6 @@
             this.btn_set_start.Name = "btn_set_start";
             this.btn_set_start.Size = new System.Drawing.Size(75, 23);
             this.btn_set_start.TabIndex = 2;
-            this.btn_set_start.Text = "Set";
             this.btn_set_start.UseVisualStyleBackColor = true;
             this.btn_set_start.Click += new System.EventHandler(this.Btn_set_start_Click);
             // 

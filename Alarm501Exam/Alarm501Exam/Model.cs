@@ -8,16 +8,17 @@ namespace Alarm501Exam
 {
     class Model
     {
-        private DateTime storedTime { get; set; }
+        private DateTime alarmTime { get; set; }
 
-        public void setStoredTime(DateTime time)
+        public void setAlarmTime(DateTime time)
         {
-            storedTime = time;
+            alarmTime = time;
         }
 
-        public DateTime getStoredTime()
+        public DateTime getAlarmTime()
         {
-            return storedTime;
+            return alarmTime;
         }
+
     }
 }
